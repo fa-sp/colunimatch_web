@@ -52,7 +52,8 @@ const App = (() => {
         <div class="welcome-icon"><img src="img/logo.svg" alt="ColUniMatch"></div>
         <h1>Encuentra tu futuro<br><span>universitario</span></h1>
         <p>
-          ¡Hola! Soy <strong>ColUniMatch</strong>, tu guía para descubrir la universidad ideal en Colombia.
+          ¡Hola! Soy <strong>ColUniMatch</strong>, tu guía para descubrir la universidad ideal en Colombia.<br>
+          En Colombia hay mas de <b>1400 programas y más de 360 universidades</b> - cuál es la mejor opción para ti?<br>
           Responde unas preguntas sencillas y te ayudaré a encontrar las mejores opciones para ti. 🇨🇴
         </p>
         <div class="welcome-features">
