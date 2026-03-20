@@ -50,16 +50,16 @@ const App = (() => {
     document.getElementById('app').innerHTML = `
       <div class="welcome fade-in">
         <div class="welcome-icon"><img src="img/logo.svg" alt="ColUniMatch"></div>
-        <h1>Encuentra tu futuro<br><span>universitario</span><brcon ColUniMatch</h1>
+        <h1 style="color: #F2A900">Encuentra tu futuro<br><span style="color: #003893">universitario</span>
+         <br><span style="color: #E74C3C">con ColUniMatch</span></h1>
         <p>
-          ¡Hola! Soy <strong>ColUniMatch</strong>, tu guía para descubrir la universidad ideal en Colombia.<br>
           En Colombia hay mas de <b>1400 programas y más de 360 universidades</b> - cuál es la mejor opción para ti?<br>
           Responde unas preguntas sencillas y te ayudaré a encontrar las mejores opciones para ti. 🇨🇴
         </p>
         <div class="welcome-features">
           <div class="welcome-feat">📝 Cuestionario personalizado</div>
           <div class="welcome-feat">🎯 Resultados a tu medida</div>
-          <div class="welcome-feat">🏫 +30 universidades</div>
+          <div class="welcome-feat">🏫 +360 universidades</div>
           <div class="welcome-feat">💡 100% gratuito</div>
         </div>
         ${user

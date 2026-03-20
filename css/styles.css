@@ -1,6 +1,6 @@
 /* ===== Design Tokens ===== */
 :root {
-  --c-primary: #F2A900;
+  --c-primary: #F2A900; /*yellow*/
   --c-primary-dark: #D4920A;
   --c-secondary: #003893;
   --c-accent: #CE1126;
@@ -106,14 +106,14 @@ body.has-nav .page { padding-top: calc(var(--nav-h) + 24px); }
 }
 .welcome h1 { font-size: 2rem; font-weight: 800; color: var(--c-secondary); line-height: 1.2; }
 .welcome h1 span { color: var(--c-primary); }
-.welcome p { color: var(--c-text-light); font-size: 1.05rem; max-width: 440px; line-height: 1.6; }
+.welcome p { color: var(--c-text-light); font-size: 1.05rem; max-width: 440px; margin-inline: auto; line-height: 1.6; text-align: center; }
 .welcome-features {
   display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 8px;
 }
 .welcome-feat {
-  background: var(--c-card); border: 1px solid var(--c-border);
-  border-radius: var(--radius); padding: 14px 18px;
-  font-size: .9rem; font-weight: 600; box-shadow: var(--shadow);
+  background: transparent; border: none;
+  padding: 6px 0; font-size: .9rem; font-weight: 500;
+  color: var(--c-muted);
 }
 
 /* ===== Buttons ===== */
